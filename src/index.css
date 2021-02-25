@@ -1,7 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: 'Roboto', 'Oxygen','Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -10,4 +9,152 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.body-section{
+  padding:1rem 2.5rem;
+}
+
+.react-tabs__tab {
+  display: inline-block;
+  background-color: grey;
+  color:#fff;
+  width:24.8%;
+  text-align: center;
+  border: 1px solid transparent;
+  border-bottom: none;
+  bottom: -1px;
+  position: relative;
+  list-style: none !important;
+  margin:0px 2px 0px 0px;
+  padding:2rem 4rem !important;
+  cursor: pointer;
+}
+
+.react-tabs__tab--selected {
+  background: black !important;
+  color: #fff !important;
+  border-radius:0 !important;
+}
+
+.react-tabs__tab--selected:after{
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  border-width: 10px 10px 0;
+  border-style: solid;
+  border-color: black transparent;
+  display: block;
+  width: 0;
+}
+
+.react-tabs__tab-list {
+  border-bottom: none !important;
+}
+
+.btn-secondary{
+  background: grey !important;
+  border-color: grey  !important ;
+  padding: .5rem 2rem !important;
+}
+
+/* button.btn-secondary:active{
+ color:red !important;
+} */
+
+.btn-secondary:focus{
+  background: black !important;
+}
+
+.accordion__button{
+  display: -webkit-inline-box !important;
+  background-color: rgb(168, 168, 168) !important;
+  color:black;
+  /* justify-content: space-between; */
+}
+
+.accordion__heading{
+  /* display: flex !important; */
+}
+
+.accordion__button:before {
+  margin-top: 5px !important;
+  /* transform: rotate(45deg) !important; */
+}
+
+.accordion__button:after {
+  margin-top: 5px !important;
+  transform: rotate(90deg) !important;
+}
+
+.accordion__panel {
+  padding: 0 !important;
+  animation: fadein 0.35s ease-in;
+}
+
+
+.border-right1 {
+  border-right:3px solid #dee2e6 !important ;
+}
+
+td , th{
+  border:2px solid #fff !important;
+  text-align: center;
+  font-size: 12px;
+}
+
+.table .thead-dark th {
+  text-align: center;
+  font-size:14px !important;
+  font-weight: 600;
+}
+
+.table th{
+  text-align: center;
+  padding:5px !important;
+  border:2px solid #fff !important;
+}
+
+.modal-backdrop {
+  background-color:transparent !important;
+}
+
+.table td{
+  padding:5px !important;
+  vertical-align: middle !important;
+}
+
+.btn-primary , .btn-primary:hover {
+  color: #fff;
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+.table th{
+  vertical-align: middle !important;
+}
+
+.modal-content{
+  border:none !important;
+}
+
+.modal-header {
+  padding: .8rem 1rem !important;
+}
+
+button.excelbutton{
+  border:none !important;
+  background-color: transparent !important;
+}
+
+.nav-text.content a{
+  border-top:1px solid #fff !important;
+  border-bottom:none !important;
+}
+
+.content{
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
