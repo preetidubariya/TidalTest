@@ -7,6 +7,16 @@ import SupplierMaster from './SupplierMaster';
 import AgriInputPurchase from './AgriInputPurchase';
 import taxMaster from './taxMaster';
 
+
+// Scripts
+import 'jquery/dist/jquery.min.js';
+import 'popper.js/dist/popper.min.js';
+import 'bootstrap/dist/js/bootstrap.min.js';
+// Styles
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+
 function App() {
   return (
     <>

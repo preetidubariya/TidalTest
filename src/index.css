@@ -143,10 +143,19 @@ td , th{
   padding: .8rem 1rem !important;
 }
 
-button.excelbutton{
+a.excelbutton{
   border:none !important;
   background-color: transparent !important;
+  color:black !important;
+  text-decoration: none !important;
 }
+
+a.excelbutton:hover{
+  border:none !important;
+  background-color: transparent !important;
+  color:blue !important;
+}
+
 
 .nav-text.content a{
   border-top:1px solid #fff !important;
